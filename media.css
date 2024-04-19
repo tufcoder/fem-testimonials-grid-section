@@ -20,6 +20,10 @@
         margin-top: 0;
     }
 
+    .card:first-child {
+        background-position: 24rem top;
+    }
+
     .card-1 {
         grid-column: 1 / 3;
         grid-row: 1 / 2;

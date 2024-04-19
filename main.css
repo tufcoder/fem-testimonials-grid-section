@@ -67,19 +67,10 @@ img {
 }
 
 .card:first-child {
-    position: relative;
-}
-
-.card:first-child::after {
-    position: absolute;
-    /* symbol \201c: left double quotation mark */
-    content: "\201c";
-    top: -150px;
-    right: 0;
-    font-size: 30rem;
-    opacity: .3;
-    color: var(--moderateVioletAlpha);
-    font-family: 'Lucida Sans Unicode', serif;
+    background: url('images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 16rem top;
+    background-color: var(--moderateViolet);
 }
 
 .header {

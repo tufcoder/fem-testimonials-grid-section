@@ -1,2 +1,6 @@
 /* 1440px */
-@media (min-width: 90rem) {}
+@media (min-width: 90rem) {
+    .attribution {
+        font-size: 1rem;
+    }
+}

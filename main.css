@@ -5,6 +5,7 @@
     --veryDarkGrayishBlue: hsl(217, 19%, 35%);
     --veryDarkBlackishBlue: hsl(219, 29%, 14%);
     --white: hsl(0, 0%, 100%);
+    --black: rgb(0, 0, 0, .1);
     /* ### Neutral */
     --lightGray: hsl(0, 0%, 81%);
     --lightGrayishBlue: hsl(210, 46%, 95%);
@@ -58,6 +59,7 @@ img {
 .card {
     border-radius: .5rem;
     padding: 2rem;
+    box-shadow: 0px 0px 1rem var(--black);
 }
 
 .card+.card {
@@ -72,7 +74,7 @@ img {
     position: absolute;
     /* symbol \201c: left double quotation mark */
     content: "\201c";
-    top: -156px;
+    top: -150px;
     right: 0;
     font-size: 30rem;
     opacity: .3;
@@ -88,6 +90,7 @@ img {
 }
 
 .header img {
+    /* 32px */
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -104,6 +107,11 @@ img {
 
 .w-600 {
     font-weight: 600;
+}
+
+.o-7,
+.w-600 {
+    color: var(--white);
 }
 
 .violet {

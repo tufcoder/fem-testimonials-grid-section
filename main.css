@@ -125,6 +125,14 @@ img {
     color: var(--veryDarkGrayishBlue);
 }
 
+.border-violet {
+    border: 2px solid var(--moderateViolet);
+}
+
+.border-violet-alpha {
+    border: 2px solid var(--moderateVioletAlpha);
+}
+
 .attribution {
     /* 11px */
     font-size: 0.6875rem;

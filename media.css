@@ -6,10 +6,11 @@
 
     .container {
         display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: repeat(4, 1fr);
-        /* 1100px */
-        width: 68.75rem;
+        /* 300px */
+        grid-template: repeat(2, 18.75rem) / repeat(4, 1fr);
+        /* 1200px */
+        width: 75rem;
+        /* 1440px */
         max-width: 90rem;
         gap: 2rem;
         align-items: normal;
@@ -18,10 +19,6 @@
 
     .card+.card {
         margin-top: 0;
-    }
-
-    .card:first-child {
-        background-position: 24rem top;
     }
 
     .card-1 {
@@ -50,9 +47,9 @@
     }
 
     .header img {
-        /* 56px */
-        width: 3.5rem;
-        height: 3.5rem;
+        /* 48px */
+        width: 3rem;
+        height: 3rem;
         border-radius: 50%;
     }
 

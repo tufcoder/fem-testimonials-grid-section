@@ -69,7 +69,7 @@ img {
 .card:first-child {
     background: url('images/bg-pattern-quotation.svg');
     background-repeat: no-repeat;
-    background-position: 16rem top;
+    background-position: 80% top;
     background-color: var(--moderateViolet);
 }
 
@@ -126,11 +126,11 @@ img {
 }
 
 .border-violet {
-    border: 2px solid var(--moderateViolet);
+    border: .25rem solid var(--moderateViolet);
 }
 
 .border-violet-alpha {
-    border: 2px solid var(--moderateVioletAlpha);
+    border: .25rem solid var(--moderateVioletAlpha);
 }
 
 .attribution {
